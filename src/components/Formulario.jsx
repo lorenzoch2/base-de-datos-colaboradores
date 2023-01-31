@@ -93,9 +93,9 @@ const Formulario = () => {
             </form>
             <hr />
             <h1>Listado de colaboradores</h1>
-            <table className="table table-striped">
+            <table className="table table-striped justify-content-between">
                 <tbody>
-                    <tr>
+                    <tr className='tabla'>
                         <th scope="col">Nombre</th>
                         <th scope="col">Correo</th>
                         <th scope="col">Acciones</th>
