@@ -71,8 +71,7 @@ const Formulario = () => {
         setListaColab(listaFiltrada)
     } 
 
-    const filtro = listaColab.filter((colab) => (colab.nombre.toUpperCase().includes(buscarColab.toUpperCase())));
-    console.log(filtro)
+    const filtro = listaColab.filter((colab) => (colab.nombre.toUpperCase().includes(buscarColab.toUpperCase()) || colab.correo.toUpperCase().includes(buscarColab.toUpperCase())));
 
     return (
         <div className='container'>
